@@ -8,3 +8,7 @@ print('My name is:\nLuis Muñoz')
 print('My name is \n\t Luis')
 print('This isn\'t a number')
 print('This isgn \\ is a backslash')
+
+print('A\tB\tC')
+print('D\tE\tF')
+print('G\tH\tI')
