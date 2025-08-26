@@ -13,5 +13,5 @@
 #print('D\tE\tF')
 #clearprint('G\tH\tI')
 
-print("Your name is " + input("Tell me your name: "))
-print("Your last name is " + input("Tell me your last name: "))
+print("Your name is " + input("Tell me your name: ") + " and your last name is " + input("Tell me your last name: "))
+#print("Your last name is " + input("Tell me your last name: "))
