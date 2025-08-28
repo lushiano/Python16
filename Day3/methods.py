@@ -31,3 +31,21 @@ print(result)
 
 result = text.replace("to","TO2")
 print(result)
+
+word_list = ["Simple","is","better","than","complex."]
+a = "Simple"
+b = "is"
+c = "better"
+d = "than"
+e = "complex."
+f = " ".join([a,b,c,d,e])
+print(f)
+
+
+sentence = "If the implementation is hard to explain, it might be a bad idea."
+
+# Replace words
+sentence = sentence.replace("hard", "easy")
+sentence = sentence.replace("bad", "good")
+
+print(sentence)
