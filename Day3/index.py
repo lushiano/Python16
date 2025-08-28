@@ -1,6 +1,6 @@
 my_text = "This text is a test"
 result = my_text[-3] #position
-print(result)
+print(my_text[-3])
 
 my_text = "This text is a test"
 result = my_text.index("text") #string or text
@@ -13,3 +13,6 @@ print(result)
 my_text = "This text is a test"
 result = my_text.rindex("s") #reverse
 print(result)
+
+word = "computer"
+print(word[5])
