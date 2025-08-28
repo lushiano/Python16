@@ -24,3 +24,8 @@ print(poem)
 
 print("water" in poem)
 print("sun" not in poem)
+
+#########
+
+word="electroencephalographist"
+print(len(word))
