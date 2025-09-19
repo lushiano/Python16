@@ -17,3 +17,13 @@ print(my_bool)
 
 my_bool = not "a" == "b"
 print(my_bool)
+
+print("\n")
+
+sentence = "When something is important enough, you do it even if the odds are against you"
+
+word1 = "success"
+word2 = "technology"
+
+my_bool = not word1 == sentence and not word2 == sentence
+print(my_bool)
