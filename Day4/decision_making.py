@@ -63,3 +63,21 @@ if age < 18:
 
 else:
     print("You are an adult")
+
+
+########
+
+speak_french = True
+knows_python = False
+
+if speak_french == True and knows_python == True:
+    print("You meet the requirements to apply")
+
+elif speak_french == False:
+    print("To apply, you need to speak French")
+        
+elif knows_python == False:
+    print("To apply, you need to know how to program in Python")
+
+else:
+    print("To apply, you need to know how to program in Python and speak French")
